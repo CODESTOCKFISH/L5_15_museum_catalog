@@ -36,6 +36,10 @@
 
 | 9 | Bandit | Unnecessary shell invocation using subprocess | Security | Replaced subprocess call with print |
 
+| 10 | Code inspection | Missing-row handling | Correctness | Added a check for missing database rows |
+
+| 11 | Code inspection | Program runs on import | Maintainability | Added an if \_\_name\_\_ == "\_\_main\_\_": guard |
+
 
 
 \## Verification
